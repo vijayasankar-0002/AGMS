@@ -1,0 +1,1147 @@
+MYSQL:
+package Railway;
+
+public class Main extends javax.swing.JFrame {
+@SuppressWarnings( "unchecked")
+// <editor-fold defaultstate="collaps ed" desc="Generated Code">
+private void initComponents() {
+
+
+
+jSplitPane1 =
+new
+javax.swing.JSplitPan e();
+jLabel1 = new javax.swing.JLabel();
+ 
+jButton1 = new javax.swing.JButton(
+;(new java.awt.event.Action Listener() {
+public void actionPerformed(java
+.awt.event.ActionEve nt evt) {
+
+
+jButton1ActionPerfor med(evt);
+}
+
+});
+
+
+
+
+
+javax.swing.GroupLa yout layout = new javax.swing.GroupLa yout(getContentPane(
+));
+
+
+
+getContentPane().set Layout(layout);
+ 
+layout.setHorizontal Group(
+
+
+layout.createParallel Group(javax.swing.G roupLayout.Alignme nt.LEADING)
+
+
+.addGroup(javax.swi ng.GroupLayout.Alig nment.TRAILING, layout.createSequenti alGroup()
+
+
+.addContainerGap(71
+,
+Short.MAX_VALUE
+)
+
+
+
+.addComponent(jLab el1)
+
+
+.addGap(61, 61, 61))
+
+
+
+.addGroup(layout.cre
+ 
+ateSequentialGroup()
+
+
+
+.addGap(30, 30, 30)
+
+
+
+.addComponent(jButt on1)
+
+
+.addContainerGap(ja vax.swing.GroupLay out.DEFAULT_SIZE
+,
+Short.MAX_VALUE
+))
+
+);
+
+
+
+layout.setVerticalGro up(
+
+
+layout.createParallel Group(javax.swing.G roupLayout.Alignme nt.LEADING)
+
+
+.addGroup(layout.cre ateSequentialGroup()
+ 
+.addContainerGap()
+
+
+
+.addComponent(jLab el1)
+
+
+.addGap(36, 36, 36)
+
+
+
+.addComponent(jButt on1, javax.swing.GroupLa yout.PREFERRED_S IZE, 35,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addContainerGap(12 4,
+Short.MAX_VALUE
+))
+
+);
+
+
+
+
+pack();
+ 
+try {
+
+for (javax.swing.UIMana ger.LookAndFeelInfo info : javax.swing.UIMana ger.getInstalledLook AndFeels()) {
+if ("Nimbus".equals(inf o.getName())) {
+
+
+javax.swing.UIMana ger.setLookAndFeel(i nfo.getClassName());
+break;
+
+}
+
+}
+
+} catch (ClassNotFoundExce ption ex) {
+
+
+java.util.logging.Log
+ger.getLogger(Main.c lass.getName()).log(j
+ 
+ava.util.logging.Level
+.SEVERE, null, ex);
+
+} catch (InstantiationExcepti on ex) {
+
+
+java.util.logging.Log ger.getLogger(Main.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+} catch (IllegalAccessExcepti on ex) {
+
+
+java.util.logging.Log ger.getLogger(Main.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+} catch (javax.swing.Unsupp ortedLookAndFeelEx ception ex) {
+
+
+java.util.logging.Log
+ 
+ger.getLogger(Main.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+}
+
+
+
+java.awt.EventQueue. invokeLater(new Runnable() {
+public void
+run() {
+
+new Main().setVisible(tru e);
+}
+
+});
+
+}
+
+
+
+
+declaration - do not modify
+private javax.swing.JButton jButton1;
+private
+ 
+javax.swing.JLabel jLabel1;
+private javax.swing.JSplitPan e jSplitPane1;
+package Railway;
+
+
+
+
+import javax.swing.JOptionP ane;
+public class login extends javax.swing.JFrame {
+
+
+
+public login() {
+
+
+
+initComponents();
+
+}
+
+
+
+
+
+
+
+
+txtpass.addActionList ener(new
+ 
+java.awt.event.Action Listener() {
+public void actionPerformed(java
+.awt.event.ActionEve nt evt) {
+
+
+txtpassActionPerform ed(evt);
+}
+
+});
+
+
+
+
+
+javax.swing.GroupLa yout txtpasswordLayout = new javax.swing.GroupLa yout(txtpassword);
+
+
+txtpassword.setLayou t(txtpasswordLayout)
+;
+
+
+
+txtpasswordLayout.se
+ 
+tHorizontalGroup(
+
+
+
+txtpasswordLayout.cr eateParallelGroup(jav ax.swing.GroupLayo ut.Alignment.LEADI NG)
+
+
+.addGroup(txtpasswo rdLayout.createSeque ntialGroup()
+
+
+.addContainerGap()
+
+
+
+.addGroup(txtpasswo rdLayout.createParall elGroup(javax.swing. GroupLayout.Alignm ent.LEADING)
+
+
+.addComponent(jLab el2)
+
+
+.addComponent(jLab el3))
+ 
+.addGap(70, 70, 70)
+
+
+
+.addGroup(txtpasswo rdLayout.createParall elGroup(javax.swing. GroupLayout.Alignm ent.LEADING, false)
+
+
+.addComponent(txtus ername, javax.swing.GroupLa yout.DEFAULT_SIZ E, 135,
+Short.MAX_VALUE
+)
+
+
+
+.addComponent(txtpa ss))
+
+
+.addContainerGap(ja vax.swing.GroupLay out.DEFAULT_SIZE
+,
+Short.MAX_VALUE
+))
+ 
+.addGroup(txtpasswo rdLayout.createSeque ntialGroup()
+
+
+.addContainerGap(16 0,
+Short.MAX_VALUE
+)
+
+
+
+.addComponent(jButt on1, javax.swing.GroupLa yout.PREFERRED_S IZE, 86,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addGap(28, 28, 28)
+
+
+
+.addComponent(jButt on2, javax.swing.GroupLa yout.PREFERRED_S IZE, 86,
+ 
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addGap(22, 22, 22))
+
+);
+
+
+
+txtpasswordLayout.se tVerticalGroup(
+
+
+txtpasswordLayout.cr eateParallelGroup(jav ax.swing.GroupLayo ut.Alignment.LEADI NG)
+
+
+.addGroup(txtpasswo rdLayout.createSeque ntialGroup()
+
+
+.addGap(44, 44, 44)
+
+
+
+.addGroup(txtpasswo rdLayout.createParall elGroup(javax.swing.
+ 
+GroupLayout.Alignm ent.BASELINE)
+
+
+.addComponent(jLab el2)
+
+
+.addComponent(txtus ername, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addGap(68, 68, 68)
+
+
+
+.addGroup(txtpasswo rdLayout.createParall elGroup(javax.swing. GroupLayout.Alignm ent.BASELINE)
+ 
+.addComponent(jLab el3)
+
+
+.addComponent(txtpa ss, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addPreferredGap(jav ax.swing.LayoutStyle
+.ComponentPlacemen t.RELATED, 51,
+Short.MAX_VALUE
+)
+
+
+
+.addGroup(txtpasswo rdLayout.createParall elGroup(javax.swing. GroupLayout.Alignm
+ent.BASELINE)
+ 
+.addComponent(jButt on1, javax.swing.GroupLa yout.PREFERRED_S IZE, 40,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addComponent(jButt on2, javax.swing.GroupLa yout.PREFERRED_S IZE, 40,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addGap(28, 28, 28))
+
+);
+
+
+
+
+
+jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 14)); //
+ 
+NOI18N
+
+
+
+jLabel1.setText("Log in");
+
+
+
+
+
+javax.swing.GroupLa yout layout = new javax.swing.GroupLa yout(getContentPane(
+));
+
+
+
+getContentPane().set Layout(layout);
+
+
+layout.setHorizontal Group(
+
+
+layout.createParallel Group(javax.swing.G roupLayout.Alignme nt.LEADING)
+
+
+.addGroup(layout.cre ateSequentialGroup()
+ 
+.addGap(167, 167,
+167)
+
+
+
+.addComponent(jLab el1, javax.swing.GroupLa yout.PREFERRED_S IZE, 58,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addContainerGap(ja vax.swing.GroupLay out.DEFAULT_SIZE
+,
+Short.MAX_VALUE
+))
+
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addContainerGap()
+
+
+
+.addComponent(txtpa
+ 
+ssword, javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+Short.MAX_VALUE
+)
+
+
+
+.addContainerGap())
+
+);
+
+
+
+layout.setVerticalGro up(
+
+
+layout.createParallel Group(javax.swing.G roupLayout.Alignme nt.LEADING)
+
+
+.addGroup(javax.swi ng.GroupLayout.Alig nment.TRAILING, layout.createSequenti alGroup()
+ 
+.addContainerGap()
+
+
+
+.addComponent(jLab el1, javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+Short.MAX_VALUE
+}
+
+public static void main(String args[]) {
+javax.swing.UIMana ger.getInstalledLook AndFeels()) {
+
+
+if("Nimbus".equals(inf o.getName())) {
+
+
+javax.swing.UIMana ger.setLookAndFeel(i nfo.getClassName());
+break;
+ 
+}
+
+}
+
+} catch (ClassNotFoundExce ption ex) {
+
+
+java.util.logging.Log ger.getLogger(login.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+} catch (InstantiationExcepti on ex) {
+
+
+java.util.logging.Log ger.getLogger(login.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+} catch (IllegalAccessExcepti on ex) {
+
+
+java.util.logging.Log
+ 
+ger.getLogger(login.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+} catch (javax.swing.Unsupp ortedLookAndFeelEx ception ex) {
+
+
+java.util.logging.Log ger.getLogger(login.c lass.getName()).log(j ava.util.logging.Level
+.SEVERE, null, ex);
+
+}
+
+
+
+java.awt.EventQueue. invokeLater(new Runnable() {
+public void
+run() {
+
+new login().setVisible(tru e);
+}
+ 
+});
+
+}
+
+
+
+
+// Variables declaration - do not modify
+private javax.swing.JButton jButton1;
+private javax.swing.JButton jButton2;
+private javax.swing.JLabel jLabel1;
+private javax.swing.JLabel jLabel2;
+private javax.swing.JLabel jLabel3;
+private javax.swing.JPasswor dField txtpass;
+ 
+private javax.swing.JPanel txtpassword;
+private javax.swing.JTextFiel d txtusername;
+// End of variables declaration
+}
+
+/*
+
+*	Click nbfs://nbhost/System FileSystem/Template s/Licenses/license- default.txt to change this license
+*	Click nbfs://nbhost/System FileSystem/Template s/GUIForms/JFrame.j ava to edit this template
+*/
+
+package Railway;
+ 
+
+import com.mysql.jdbc.Conn ection;
+import com.mysql.jdbc.Prep aredStatement;
+import java.util.logging.Leve l;
+import java.util.logging.Log ger;
+import java.sql.DriverManag er;
+import java.sql.SQLExceptio n;
+import javax.swing.JOptionP ane;
+ 
+
+public void Connect()
+{
+
+try {
+
+
+
+Class.forName("com. mysql.jdbc.Driver");
+try {
+
+con = (Connection) DriverManager.getCo nnection("jdbc:mysql
+://localhost/railway"," root","Surya@2004!"
+);
+
+} catch (SQLException ex) {
+
+
+Logger.getLogger(ad dtrain.class.getName(
+)).log(Level.SEVERE
+, null, ex);
+
+}
+ 
+} catch (ClassNotFoundExce ption ex) {
+
+
+Logger.getLogger(ad dtrain.class.getName(
+)).log(Level.SEVERE
+, null, ex);
+
+}
+
+}
+
+
+
+
+
+jPanel1Layout.setHor izontalGroup(
+
+
+jPanel1Layout.create ParallelGroup(javax.s wing.GroupLayout.A lignment.LEADING)
+
+
+.addGroup(jPanel1La yout.createSequential Group()
+
+
+.addContainerGap()
+ 
+.addGroup(jPanel1La yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. LEADING)
+
+
+.addComponent(jLab el2)
+
+
+.addComponent(jLab el1)
+
+
+.addComponent(jLab el3)
+
+
+.addComponent(jLab el4)
+
+
+.addComponent(jLab el5))
+
+
+.addGap(69, 69, 69)
+
+
+
+.addGroup(jPanel1La
+ 
+yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. LEADING)
+
+
+.addComponent(tpric e, javax.swing.GroupLa yout.PREFERRED_S IZE, 135,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addComponent(tdest, javax.swing.GroupLa yout.PREFERRED_S IZE, 135,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addComponent(tstart
+,
+javax.swing.GroupLa
+yout.PREFERRED_S IZE, 135,
+ 
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addComponent(tno, javax.swing.GroupLa yout.PREFERRED_S IZE, 135,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addComponent(tnam e, javax.swing.GroupLa yout.PREFERRED_S IZE, 135,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addContainerGap(12 6,
+Short.MAX_VALUE
+))
+
+);
+ 
+jPanel1Layout.setVer ticalGroup(
+
+
+jPanel1Layout.create ParallelGroup(javax.s wing.GroupLayout.A lignment.LEADING)
+
+
+.addGroup(jPanel1La yout.createSequential Group()
+
+
+.addGap(17, 17, 17)
+
+
+
+.addGroup(jPanel1La yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. BASELINE)
+
+
+.addComponent(jLab el1)
+
+.addComponent(tno, javax.swing.GroupLa
+ 
+yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addGap(18, 18, 18)
+
+
+
+.addGroup(jPanel1La yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. BASELINE)
+
+
+.addComponent(jLab el2)
+
+
+.addComponent(tnam e, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa
+ 
+yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addGap(18, 18, 18)
+
+
+
+.addGroup(jPanel1La yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. BASELINE)
+
+
+.addComponent(jLab el3)
+
+
+.addComponent(tstart
+,
+javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa
+ 
+yout.PREFERRED_S IZE))
+
+
+.addGap(18, 18, 18)
+
+
+
+.addGroup(jPanel1La yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. BASELINE)
+
+
+.addComponent(jLab el4)
+
+
+.addComponent(tdest, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addGap(18, 18, 18)
+ 
+.addGroup(jPanel1La yout.createParallelGr oup(javax.swing.Gro upLayout.Alignment. BASELINE)
+
+
+.addComponent(jLab el5)
+
+
+.addComponent(tpric e, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addContainerGap(51
+,
+Short.MAX_VALUE
+))
+ 
+);
+
+
+
+
+
+jButton1.setText("Edi t");
+
+
+jButton1.addActionLi stener(new java.awt.event.Action Listener() {
+public void actionPerformed(java
+.awt.event.ActionEve nt evt) {
+
+
+jButton1ActionPerfor med(evt);
+}
+
+});
+
+
+
+
+
+jButton2.setText("Ad d Train");
+ 
+jButton2.addActionLi stener(new java.awt.event.Action Listener() {
+public void actionPerformed(java
+.awt.event.ActionEve nt evt) {
+
+
+jButton2ActionPerfor med(evt);
+}
+
+});
+
+
+
+
+
+jButton3.setText("De lete");
+java.awt.Font("Segu, 1, 18)); // NOI18N
+
+
+jLabel6.setText("Add Train");
+ 
+javax.swing.GroupLa yout layout = new javax.swing.GroupLa yout(getContentPane(
+));
+
+
+
+getContentPane().set Layout(layout);
+
+
+layout.setHorizontal Group(
+
+
+layout.createParallel Group(javax.swing.G roupLayout.Alignme nt.LEADING)
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addGroup(layout.cre ateParallelGroup(java x.swing.GroupLayout
+.Alignment.LEADIN G)
+ 
+.addGroup(layout.cre ateParallelGroup(java x.swing.GroupLayout
+.Alignment.TRAILIN G, false)
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addGap(19, 19, 19)
+
+
+
+.addComponent(jPan el1, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE))
+
+
+.addGroup(layout.cre ateSequentialGroup()
+ 
+.addGap(32, 32, 32)
+
+
+
+.addComponent(jButt on2, javax.swing.GroupLa yout.PREFERRED_S IZE, 100,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addPreferredGap(jav ax.swing.LayoutStyle
+.ComponentPlacemen t.RELATED,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+Short.MAX_VALUE
+)
+
+
+
+.addComponent(jButt on1, javax.swing.GroupLa yout.PREFERRED_S IZE, 100,
+javax.swing.GroupLa
+ 
+yout.PREFERRED_S IZE)
+
+
+.addGap(33, 33, 33)
+
+
+
+.addComponent(jButt on3, javax.swing.GroupLa yout.PREFERRED_S IZE, 101,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addGap(14, 14, 14)))
+
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addGap(187, 187,
+187)
+
+
+
+.addComponent(jLab el6)))
+ 
+.addPreferredGap(jav ax.swing.LayoutStyle
+.ComponentPlacemen t.UNRELATED)
+
+
+.addComponent(jScro llPane1, javax.swing.GroupLa yout.PREFERRED_S IZE, 413,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addContainerGap(33
+,
+Short.MAX_VALUE
+))
+
+);
+
+
+
+layout.setVerticalGro up(
+
+
+layout.createParallel Group(javax.swing.G roupLayout.Alignme
+ 
+nt.LEADING)
+
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addGroup(layout.cre ateParallelGroup(java x.swing.GroupLayout
+.Alignment.LEADIN G)
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addGap(11, 11, 11)
+
+
+
+.addComponent(jLab el6)
+
+
+.addPreferredGap(jav ax.swing.LayoutStyle
+.ComponentPlacemen t.RELATED)
+
+
+.addComponent(jPan
+ 
+el1, javax.swing.GroupLa yout.PREFERRED_S IZE,
+javax.swing.GroupLa yout.DEFAULT_SIZ E,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+.addGap(18, 18,
+18)
+
+addComponent(jButn 2,
+javax.swing.GroupLa yout.PREFERRED_S IZE, 38,
+javax.swing.GroupLa yout.PREFERRED_S IZE)
+
+
+.addComponent(jButt on1, javax.swing.GroupLa yout.PREFERRED_S IZE, 38,
+javax.swing.GroupLa
+ 
+yout.PREFERRED_S IZE)
+
+
+.addComponent(jButt on3, javax.swing.GroupLa yout.PREFERRED_S IZE, 38,
+javax.swing.GroupLa yout.PREFERRED_S IZE)))
+
+
+.addGroup(layout.cre ateSequentialGroup()
+
+
+.addContainerGap()
+
+
+
+.addComponent(jScro llPane1, javax.swing.GroupLa yout.PREFERRED_S IZE, 317,
+javax.swing.GroupLa yout.PREFERRED_S IZE)))
+ 
+.addContainerGap(ja vax.swing.GroupLay out.DEFAULT_SIZE
+,
+Short.MAX_VALUE
+))
+
+);
+
+
+
+
+pack();
+
+}// </editor-fold>
+
+
+
+
+private void jButton1ActionPerfor med(java.awt.event.A ctionEvent evt) {
+// TODO add your handling code here:
+}
+
+
+
+
+private void jButton2ActionPerfor med(java.awt.event.A ctionEvent evt) {
+ 
+// TODO add your handling code here:
+String trainno = tno.getText();
+String trainname
+= tname.getText();
+
+String trainstart
+= tstart.getText();
+
+String traindest
+= tdest.getText();
+
+String trainprice
+= tprice.getText();
+
+
+
+
+
+
+try {
+
+pst = (PreparedStatement) con.prepareStatement ("insert into addtrain(tno,tname,tst art,tdest,tprice)values (?,?,?,?,?)");
+ 
+pst.setString(1, trainno);
+
+
+pst.setString(2, trainname);
+
+
+pst.setString(3, trainstart);
+
+
+pst.setString(4, traindest);
+
+
+pst.setString(5, trainprice);
+int k = pst.executeUpdate()
+if(k==1)
+
+{
+
+
+
+JOptionPane.showMe ssageDialog(this,"Re cord Added");
+}
+
+else
+ 
+{
+
+
+
+JOptionPane.showMe ssageDialog(this,"Re cord Failed");
+}
+
+
+
+
+tno.setText("");
+
+
+
+tname.setText("");
+
+
+
+tstart.setText("");
+
+
+
+tdest.setText("");
+
+
+
+tprice.setText("");
+
+
+
+tno.requestFocus()
+
+} catch (SQLException ex) {
+
+
+Logger.getLogger(ad dtrain.class.getName(
+)).log(Level.SEVERE
+ 
+, null, ex}
+
+private void tnameActionPerform ed(java.awt.event.Act ionEvent evt) {
+// TODO add your handling code here:
+}
+private void tpriceActionPerforme d(java.awt.event.Acti onEvent evt) {
+// TODO add your handling code here:
+}
+
+
+
+
+//<editor-fold defaultstate="collaps ed" desc=" Look and feel setting code (optional) ">
+try {
+ 
+for (javax.swing.UIMana ger.LookAndFeelInfo info : javax.swing.UIMana ger.getInstalledLook AndFeels()) {
+if ("Nimbus".equals(inf o.getName())) {
+
+
+javax.swing.UIMana ger.setLookAndFeel(i nfo.getClassName());
+break;
+
+}
+
+}
+
+} catch (ClassNotFoundExce ption ex) {
+
+
+java.util.logging.Log ger.getLogger(addtrai n.class.getName()).lo g(java.util.logging.Le
+ 
+vel.SEVERE, null, ex);
+} catch (InstantiationExcepti on ex) {
+
+
+java.util.logging.Log ger.getLogger(addtrai n.class.getName()).lo g(java.util.logging.Le vel.SEVERE, null, ex);
+} catch (IllegalAccessExcepti on ex) {
+
+
+java.util.logging.Log ger.getLogger(addtrai n.class.getName()).lo g(java.util.logging.Le vel.SEVERE, null, ex);
+} catch (javax.swing.Unsupp ortedLookAndFeelEx ception ex) {
+ 
+java.util.logging.Log ger.getLogger(addtrai n.class.getName()).lo g(java.util.logging.Le vel.SEVERE, null, ex);
+}
+
+java.awt.EventQueue. invokeLater(new Runnable() {
+public void
+run() {
+
+new addtrain().setVisible(t rue);
+}
+
+});
+
+}
+
+
+
+
+// Variables declaration - do not modify
+private
+ 
+javax.swing.JButton jButton1;
+private javax.swing.JButton jButton2;
+private javax.swing.JButton jButton3;
+private javax.swing.JLabel jLabel1;
+private javax.swing.JLabel jLabel2;
+private javax.swing.JLabel jLabel3;
+private javax.swing.JLabel jLabel4;
+private javax.swing.JLabel jLabel5;
+private javax.swing.JLabel
+ 
+jLabel6;
+
+private javax.swing.JPanel jPanel1;
+private javax.swing.JScrollPa ne jScrollPane1;
+private javax.swing.JTable jTable1;
+private javax.swing.JTextFiel d tdest;
+private javax.swing.JTextFiel d tname;
+private javax.swing.JTextFiel d tno;
+private javax.swing.JTextFiel d tprice;
+private
+javax.swing.JTextFiel d tstart;
+ 
+// End of variables declaration
+}
